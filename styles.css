@@ -1,0 +1,39 @@
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-link{
+    display: flex;
+    list-style: none;
+    gap:2rem;
+}
+
+.nav-link a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link a:hover{
+    color:#ffd700;
+}
+
+
+header{
+    background-color: #884513;
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 2rem; 
+}
