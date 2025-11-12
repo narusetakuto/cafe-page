@@ -66,3 +66,18 @@ color: white;
 
 
     }
+
+.btn {
+    display: inline-block;
+    background-color: #ffd700;
+    color: #333;
+    padding:12px 30px;
+    text-decoration: none;
+    font-weight:bold;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #ffa500;
+    transform: translateY(-2px);
+}
