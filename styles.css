@@ -37,3 +37,18 @@ nav{
    margin: 0 auto;
    padding: 0 2rem; 
 }
+
+.hero{
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+
+url('data:image/svg+xml, \
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23D2B48C" width="1200" height="600"/> <circle cx="200" cy="150" r="50" fill="%238B4513" opacity="0.3"/> <circle cx="800" cy="400" r="80" fill="%238B4513" opacity="0.2"/> <circle cx="1000" cy="200" r="60" fill="%238B4513" opacity="0.3"/></svg>');
+background-size: cover;
+background-position: center;
+height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: white;
+}
